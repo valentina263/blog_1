@@ -6,7 +6,7 @@
 
 
 <div class ="container">
-    <table id="idCursos" class="table table-striped table-bordered" style="width:100%">
+    <table id="idCursos" class="table table-dark  table-bordered table-info" style="width:100%">
 
     <thead>
         <tr>
@@ -27,8 +27,8 @@
 <td>{{$curso->id}}</td>
 <td>{{$curso->name}}</td>
 <td>{{$curso->descripcion}}</td>
-<td><a href="{{route('cursos.show',$curso)}}">Eliminar</a></td>
-<td><a href="{{route('cursos.edit',$curso->id)}}">Editar</a></td>
+<td><a href="{{route('cursos.show',$curso)}} "class="btn btn-danger" >Eliminar</a></td>
+<td><a href="{{route('cursos.edit',$curso->id)}}"class="btn btn-info">Editar</a></td>
 
 </tr>
 @endforeach

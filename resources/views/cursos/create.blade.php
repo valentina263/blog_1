@@ -2,11 +2,11 @@
 
 @section('content')
 
-<h1>Crear curso</h1>
-<form action="{{route('cursos.store')}}" method="POST">
+<h1 class="text-center">Crear curso</h1>
+<form  action="{{route('cursos.store')}}"class="text-center "  method="POST">
 
     @csrf
-    <label>
+    <label  >
         Nombre:
         <br>
         <input type="text" name="name">
@@ -18,7 +18,7 @@
         <input type="text" name="descripcion">
     </label>
     <br><br>
-    <button type="submit">Enviar Formulario:</button>
+    <button type="submit"class="btn btn-primary">Enviar</button>
 
 
 </form>

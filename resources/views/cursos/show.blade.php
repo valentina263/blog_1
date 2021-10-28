@@ -2,13 +2,13 @@
 
 @section('content')
 
-<h1> ¿Eliminar curso?  {{$curso}}</h1>
+<h1 class="text-center"> ¿Eliminar curso?  {{$curso}}</h1>
 
-<form action="{{route("cursos.destroy",$curso)}}" method="POST">
+<form action="{{route("cursos.destroy",$curso)}}" class="text-center border p-3  method="POST">
 
 @csrf
 @method('delete')
-<button type="submit">Eliminar</button>
+<button type="submit" class="btn btn-danger">Eliminar</button>
 
 </form>
 

@@ -2,8 +2,8 @@
 
 @section('content')
 
-<h1>Editar curso</h1>
-<form action="{{route('cursos.update', $curso)}}" method="POST">
+<h1 class="text-center">Editar curso</h1>
+<form action="{{route('cursos.update', $curso)}}" class="text-center "method="POST">
 
     @csrf
 

@@ -18,7 +18,7 @@
         <div class="container-fluid bg-dark">
                  <nav class="navbar navbar-expand-md navbar-dark bg-dark ">
                     <div class="container-fluid">
-                      <a class="navbar-brand" href="">Gestion de Cursos</a>
+                      <a class="navbar-brand" href=""> CURSO</a>
                       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                       </button>
@@ -34,11 +34,11 @@
                           </li>
                           <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                              Cursos
+                              ADMINISTRAR
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                              <li><a class="dropdown-item" href="{{route('cursos.create')}}">Crear un PQRSD</a></li>
-                              <li><a class="dropdown-item" href="{{route('cursos.index')}}">Cursos</a></li>
+                              <li><a class="dropdown-item" href="{{route('cursos.create')}}">Crear un nuevo Curso</a></li>
+                              <li><a class="dropdown-item" href="{{route('cursos.index')}}">Lista de Cursos</a></li>
                             </ul>
                           </li>
                           {{-- <li class="nav-item">
