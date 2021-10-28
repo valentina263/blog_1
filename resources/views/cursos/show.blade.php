@@ -4,7 +4,7 @@
 
 <h1 class="text-center"> ¿Eliminar curso?  {{$curso}}</h1>
 
-<form action="{{route("cursos.destroy",$curso)}}" class="text-center border p-3  method="POST">
+<form action="{{route("cursos.destroy",$curso)}}" class="text-center border p-3 m-3  "method="POST">
 
 @csrf
 @method('delete')

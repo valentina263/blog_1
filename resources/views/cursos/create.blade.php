@@ -3,7 +3,7 @@
 @section('content')
 
 <h1 class="text-center">Crear curso</h1>
-<form  action="{{route('cursos.store')}}"class="text-center "  method="POST">
+<form  action="{{route('cursos.store')}}"class="text-center border m-3"  method="POST">
 
     @csrf
     <label  >
@@ -18,7 +18,7 @@
         <input type="text" name="descripcion">
     </label>
     <br><br>
-    <button type="submit"class="btn btn-primary">Enviar</button>
+    <button type="submit"class="btn btn-primary">Enviargit</button>
 
 
 </form>
